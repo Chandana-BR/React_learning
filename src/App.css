@@ -1,0 +1,24 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: darkcyan;
+  align-items: center;
+}
+a{
+  display: inline-block;
+  text-decoration: underline,;
+  justify-content: space-evenly;
+  padding: 10px;
+  border: 2px solid brown;
+}
+li{
+  display: inline-block;
+  list-style: none;
+}
+a.hover{
+  background-color: darkseagreen;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
