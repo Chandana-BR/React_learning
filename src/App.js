@@ -1,16 +1,18 @@
 import React from "react";
 import "./App.css";
+import Reverse from "./Reverse";
 // import Counter from "./Counter";
 // import Lifecycle from "./Lifecycle";
 
 // import EditToggle from "./editToggle";
 // import FormDataComponent from "./form";
-import TableData from "./Table";
+
 // import TestCalc from "./testCalc";
 // import TestAdding from "./Test";
 // import New from "./New";
 // import Navbar from "./Navbar.js";
 // import Home from "./Home.js";
+// import TableData from "./Table";
 
 // const Lifecycle = lazy(() => import("./Lifecycle"));
 
@@ -38,7 +40,9 @@ function App() {
       {/* <Lifecycle /> */}
       {/* <Counter /> */}
 
-      <TableData />
+      {/* <TableData /> */}
+
+      <Reverse />
     </div>
   );
 }
