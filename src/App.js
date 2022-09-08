@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import Reverse from "./Reverse";
+// import Reverse from "./Reverse";
 // import Counter from "./Counter";
 // import Lifecycle from "./Lifecycle";
 
 // import EditToggle from "./editToggle";
 // import FormDataComponent from "./form";
 
-// import TestCalc from "./testCalc";
+import TestCalc from "./testCalc";
 // import TestAdding from "./Test";
 // import New from "./New";
 // import Navbar from "./Navbar.js";
@@ -36,13 +36,13 @@ function App() {
       {/* <FormDataComponent /> */}
       {/* <EditToggle title="My first post" /> */}
       {/* <Sum /> */}
-      {/* <TestCalc /> */}
+      <TestCalc />
       {/* <Lifecycle /> */}
       {/* <Counter /> */}
 
       {/* <TableData /> */}
 
-      <Reverse />
+      {/* <Reverse /> */}
     </div>
   );
 }

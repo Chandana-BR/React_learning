@@ -22,7 +22,7 @@ export default class TestCalc extends Component {
 
   sub() {
     this.setState((state) => ({
-      res: Number(state.number1) - Number(state.number2),
+      res: +state.number1 - +state.number2,
     }));
   }
 
@@ -34,7 +34,7 @@ export default class TestCalc extends Component {
 
   div() {
     this.setState((state) => ({
-      res: Number(state.number1) / Number(state.number2),
+      res: +state.number1 / +state.number2, // +operator also converts string into integers
     }));
   }
 
